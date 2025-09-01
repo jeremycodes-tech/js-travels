@@ -2,14 +2,14 @@ import { NAV_LINKS } from "@/constants"
 import Image from "next/image"
 import Link from "next/link"
 import Button from "./Button"
-import { asset } from "@/utils/assets"
+
 
 const Navbar = () => {
   return (
     <nav className="flexBetween max-container padding-container relative z-30 py-5">
       <Link href="/">
         <Image 
-          src={asset("/HIlink-logo.svg")} 
+          src={("/HIlink-logo.svg")} 
           alt="logo" 
           width={74} 
           height={29} 
@@ -32,13 +32,13 @@ const Navbar = () => {
         <Button 
           type="button"
           title="Login"
-          icon={asset("/user.svg")}
+          icon={("/user.svg")}
           variant="btn_dark_green"
         />
       </div>
 
       <Image 
-        src={asset("/menu.svg")}
+        src={("/menu.svg")}
         alt="menu"
         width={32}
         height={32}

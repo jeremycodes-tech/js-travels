@@ -1,4 +1,4 @@
-import { asset } from "@/utils/assets";
+;
 
 // NAVIGATION
 export const NAV_LINKS = [
@@ -11,38 +11,38 @@ export const NAV_LINKS = [
 
 // CAMP SECTION
 export const PEOPLE_URL = [
-  asset('/person-1.png'),
-  asset('/person-2.png'),
-  asset('/person-3.png'),
-  asset('/person-4.png'),
+  ('/person-1.png'),
+  ('/person-2.png'),
+  ('/person-3.png'),
+  ('/person-4.png'),
 ];
 
 // FEATURES SECTION
 export const FEATURES = [
   {
     title: 'Offline Maps, Always Ready',
-    icon: asset('/map.svg'),
+    icon: ('/map.svg'),
     variant: 'green',
     description:
       'No signal? No problem. Explore confidently with detailed offline maps that guide your journey wherever adventure takes you.',
   },
   {
     title: 'Plan Your Adventures',
-    icon: asset('/calendar.svg'),
+    icon: ('/calendar.svg'),
     variant: 'green',
     description:
       "Easily create trip schedules and share them with friends. With The J’s, planning is simple so you can focus on the experience.",
   },
   {
     title: 'Smart AR Navigation',
-    icon: asset('/tech.svg'),
+    icon: ('/tech.svg'),
     variant: 'green',
     description:
       'Cutting-edge augmented reality shows you the safest routes and hidden gems—no internet connection required.',
   },
   {
     title: 'Fresh Destinations Monthly',
-    icon: asset('/location.svg'),
+    icon: ('/location.svg'),
     variant: 'orange',
     description:
       'Discover new trails, camps, and hidden spots added every month, shared by a global community of explorers.',
@@ -83,10 +83,10 @@ export const FOOTER_CONTACT_INFO = {
 export const SOCIALS = {
   title: 'Follow Us',
   links: [
-    asset('/facebook.svg'),
-    asset('/instagram.svg'),
-    asset('/twitter.svg'),
-    asset('/youtube.svg'),
-    asset('/wordpress.svg'),
+    ('/facebook.svg'),
+    ('/instagram.svg'),
+    ('/twitter.svg'),
+    ('/youtube.svg'),
+    ('/wordpress.svg'),
   ],
 };

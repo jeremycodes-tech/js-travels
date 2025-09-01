@@ -1,7 +1,7 @@
 import React from "react"
 import Button from "./Button"
 import Image from "next/image"
-import { asset } from "@/utils/assets"
+
 
 const GetApp = () => {
   return (
@@ -22,14 +22,14 @@ const GetApp = () => {
             <Button 
               type="button"
               title="App Store"
-              icon={asset("/apple.svg")}
+              icon={("/apple.svg")}
               variant="btn_white"
               full
             />
             <Button 
               type="button"
               title="Play Store"
-              icon={asset("/android.svg")}
+              icon={("/android.svg")}
               variant="btn_dark_green_outline"
               full
             />
@@ -38,7 +38,7 @@ const GetApp = () => {
           {/* Social proof / rating */}
           <div className="flex items-center gap-2 mt-4">
             <Image
-              src={asset("/star.svg")}
+              src={("/star.svg")}
               alt="star rating"
               width={20}
               height={20}
@@ -52,7 +52,7 @@ const GetApp = () => {
         {/* Right Side: App preview image */}
         <div className="flex flex-1 items-center justify-end">
           <Image
-            src={asset("/phones.png")}
+            src={("/phones.png")}
             alt="mobile app preview on phones"
             width={550}
             height={870}

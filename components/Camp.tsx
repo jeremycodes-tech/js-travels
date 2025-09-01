@@ -1,6 +1,6 @@
 import { PEOPLE_URL } from "@/constants"
 import Image from "next/image"
-import { asset } from "@/utils/assets"
+
 
 interface CampProps {
   backgroundImage: string
@@ -18,7 +18,7 @@ const CampSite = ({ backgroundImage, title, subtitle, peopleJoined }: CampProps)
         <div className="flexCenter gap-4">
           <div className="rounded-full bg-green-50 p-4">
             <Image
-              src={asset("/folded-map.svg")}
+              src={("/folded-map.svg")}
               alt="map"
               width={28}
               height={28}
@@ -79,7 +79,7 @@ const Camp = () => {
             helping you discover, connect, and explore with confidence.
           </p>
           <Image
-            src={asset("/quote.svg")}
+            src={("/quote.svg")}
             alt="camp-quote"
             width={186}
             height={219}

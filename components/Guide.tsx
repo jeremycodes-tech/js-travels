@@ -1,13 +1,13 @@
 import Image from "next/image"
 import React from "react"
-import { asset } from "@/utils/assets"
+
 
 const Guide = () => {
   return (
     <section className="flexCenter flex-col">
       <div className="padding-container max-container w-full pb-24">
         <Image
-          src={asset("/camp.svg")}
+          src={("/camp.svg")}
           alt="camp icon"
           width={50}
           height={50}
@@ -30,7 +30,7 @@ const Guide = () => {
 
       <div className="flexCenter max-container relative w-full">
         <Image
-          src={asset("/boat.jpeg")}
+          src={("/boat.jpeg")}
           alt="scenic boat view of Lake Como"
           width={1440}
           height={580}
@@ -39,7 +39,7 @@ const Guide = () => {
 
         <div className="absolute flex bg-white py-8 pl-5 pr-7 gap-3 rounded-3xl border shadow-md md:left-[5%] lg:top-20">
           <Image
-            src={asset("/meter.svg")}
+            src={("/meter.svg")}
             alt="travel meter"
             width={16}
             height={158}

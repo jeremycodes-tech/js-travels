@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { asset } from "@/utils/assets"
+
 
 type ButtonProps = {
   type: "button" | "submit"
@@ -19,7 +19,7 @@ const Button = ({ type, title, icon, variant, full }: ButtonProps) => {
     >
       {icon && (
         <Image
-          src={asset(icon)}
+          src={(icon)}
           alt={title}
           width={24}
           height={24}
