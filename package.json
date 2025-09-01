@@ -2,15 +2,14 @@
   "name": "travel_app",
   "version": "0.1.0",
   "private": true,
-"scripts": {
-  "dev": "next dev",
-  "build": "next build && next export",  
-  "start": "next start",
-  "lint": "next lint",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d out -b gh-pages"
-
-
+  "homepage": "https://jeremycodes-tech.github.io/js-travels",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start",
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d out -b gh-pages"
   },
   "dependencies": {
     "next": "13.5.4",

@@ -9,7 +9,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  // GitHub Pages needs basePath & assetPrefix
+  // Use basePath & assetPrefix only for GitHub Pages
   assetPrefix: !isVercel && isProd ? `/${repoName}/` : "",
   basePath: !isVercel && isProd ? `/${repoName}` : "",
   env: {
@@ -18,10 +18,3 @@ const nextConfig = {
 };
 
 module.exports = nextConfig;
-
-// Force GH Pages locally
-if (process.env.TEST_GHPAGES) {
-  module.exports.basePath = "/js-travels";
-  module.exports.assetPrefix = "/js-travels/";
-  module.exports.env.NEXT_PUBLIC_BASE_PATH = "/js-travels";
-}
